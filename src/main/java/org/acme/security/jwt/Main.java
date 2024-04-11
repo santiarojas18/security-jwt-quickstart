@@ -10,5 +10,6 @@ public class Main {
     public static void main(String[] args) {
         // Iniciar la aplicación Quarkus
         Quarkus.run(args);
+        PostService.getAllPosts();
     }
 }
